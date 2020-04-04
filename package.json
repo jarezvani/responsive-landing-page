@@ -1,0 +1,22 @@
+{
+  "name": "responsive-landing-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jarezvani/responsive-landing-page.git"
+  },
+  "author": "Jay Rezvani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jarezvani/responsive-landing-page/issues"
+  },
+  "homepage": "https://github.com/jarezvani/responsive-landing-page#readme",
+  "devDependencies": {
+    "node-sass": "^4.13.1"
+  }
+}
