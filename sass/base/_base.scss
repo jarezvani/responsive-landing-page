@@ -1,0 +1,16 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    /* defines 1rem as 10px assuming user agent default font size is 16px */
+    font-size: 62.5%; 
+}
+
+body {
+    box-sizing: border-box;
+}
