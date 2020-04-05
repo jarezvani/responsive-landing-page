@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "node-sass sass/main.scss css/style.css --watch"
+    "compile:sass": "node-sass sass/main.scss css/style.css",
+    "wcomp:sass": "node-sass sass/main.scss css/style.css -wr sass/*"
   },
   "repository": {
     "type": "git",

@@ -9,6 +9,15 @@
 
 @import "components/button";
 
+@import "layout/grid";
 @import "layout/header";
 
 @import "pages/home";
+
+.grid-test {
+    margin-top: 3rem;
+
+    [class^="col-"] {
+        background-color: orangered;
+    }
+}
