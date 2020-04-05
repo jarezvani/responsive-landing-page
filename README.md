@@ -17,7 +17,7 @@ if not, run `npm install live-server -g`
 
 ```
 > npm install
-> npm run compile:sass
+> npm run wcomp:sass
 ```
 
 In a separate terminal window, cd into project root directory
